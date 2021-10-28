@@ -1,0 +1,28 @@
+body{
+    font-size: 100%;
+    background-color:  lightblue;
+    border: black;
+}
+.container{
+    margin: 5%  ;
+    font-size: 100%;
+    background-color: rgb(99, 168, 170);
+    height:100%;
+    border: 2px solid black;
+    border-bottom-style: double;
+    grid-template-areas: 1fr 1fr 1fr 1fr;
+    display:inline-flex;
+}
+div{
+    border: 2px solid black;
+    padding:5px
+}
+.page{border: none;
+    margin:0% ;
+}
+#datepicker{
+    width: 250px;
+    height: 40px;
+    font-size: large;
+    font-style: italic;
+}
